@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-red-50">
+    <main class="min-h-screen flex justify-center items-center p-4">
+      <section
+        class="bg-white w-full max-w-2xl p-6 sm:p-8 rounded-2xl rounded-br-[100px] shadow-md"
+      >
+        <div class="flex gap-4 sm:gap-6">
+          <div class="flex-1 min-w-0">
+            <label
+              id="day-label"
+              for="day"
+              class="block text-sm font-bold tracking-widest text-gray-500 uppercase mb-2"
+              >Day</label
+            >
+
+            <input
+              type="number"
+              id="day"
+              placeholder="DD"
+              class="w-full border border-gray-300 rounded-lg p-3 text-xl font-bold outline-none"
+            />
+
+            <p id="day-error" class="text-red-500 text-xs italic mt-2"></p>
+          </div>
+
+          <div class="flex-1 min-w-0">
+            <label
+              id="month-label"
+              for="month"
+              class="block text-sm font-bold tracking-widest text-gray-500 uppercase mb-2"
+              >Month</label
+            >
+
+            <input
+              type="number"
+              id="month"
+              placeholder="MM"
+              class="w-full border border-gray-300 rounded-lg p-3 text-xl font-bold outline-none"
+            />
+
+            <p id="month-error" class="text-red-500 text-xs italic mt-2"></p>
+          </div>
+
+          <div class="flex-1 min-w-0">
+            <label
+              id="year-label"
+              for="year"
+              class="block text-sm font-bold tracking-widest text-gray-500 uppercase mb-2"
+              >Year</label
+            >
+
+            <input
+              type="number"
+              id="year"
+              placeholder="YYYY"
+              class="w-full border border-gray-300 rounded-lg p-3 text-xl font-bold outline-none"
+            />
+
+            <p id="year-error" class="text-red-500 text-xs italic mt-2"></p>
+          </div>
+        </div>
+
+        <div class="flex items-center my-6">
+          <div class="border-t border-gray-300 flex-1"></div>
+
+          <button
+            id="calculate"
+            type="button"
+            class="bg-purple-600 hover:bg-black transition-colors w-16 h-16 rounded-full flex items-center justify-center"
+          >
+            <img
+              src="assets/images/icon-arrow.svg"
+              alt="Calculate age"
+              class="w-8 h-8"
+            />
+          </button>
+        </div>
+
+        <div class="text-5xl sm:text-6xl font-extrabold italic">
+          <p><span id="yy" class="text-purple-500">--</span> years</p>
+          <p><span id="mm" class="text-purple-500">--</span> months</p>
+          <p><span id="dd" class="text-purple-500">--</span> days</p>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
