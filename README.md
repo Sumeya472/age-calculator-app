@@ -51,17 +51,4 @@ While building this project, I practiced:
 - Changing Tailwind CSS classes dynamically using `classList`.
 - Creating responsive layouts with Tailwind CSS.
 
-## Author
 
-**Sumeya Seid**
-
-- GitHub: [@Sumeya472](https://github.com/Sumeya472)
-- LinkedIn: [Sumeya Seid](https://www.linkedin.com/in/sumeya-seid-730028304/)
-
-## Acknowledgments
-
-- [Frontend Mentor](https://www.frontendmentor.io/) for providing the challenge and design resources.
-
----
-
-Built with ❤️ as part of my frontend development learning journey.
